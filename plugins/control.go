@@ -1,9 +1,12 @@
 package plugins
 
 import (
+	"crypto/sha1"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
+	"strings"
 )
 
 func SaveConfig(config Config) {
@@ -38,4 +41,18 @@ func UpdateUserToken(userToken UserToken) {
 	SaveConfig(config)
 }
 
+func Sha1Sum(filePath string) string {
+	file, _ := ioutil.ReadFile(filePath)
+	return fmt.Sprintf("%x", sha1.Sum(file))
+}
 
+func SplitPath(path string) []string {
+	var pathSplit []string
+	if strings.Index(path, "/") != -1 {
+		pathSplit = strings.Split(path, "/")
+	} else {
+		pathSplit = strings.Split(path, "\\")
+	}
+
+	return pathSplit
+}

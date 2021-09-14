@@ -1,13 +1,1 @@
-{
-  "backup_path": [
-    "E:\\DesktopBackup"
-  ],
-  "cloud_backup_folder_name": "CloudBackup",
-  "user_token": {
-    "user_id": "",
-    "access_token": "",
-    "refresh_token": "",
-    "expire_time": "",
-    "default_drive_id": ""
-  }
-}
+{"backup_path":[".\\Downloads"],"cloud_backup_folder_name":"CloudBackup","user_token":{"user_id":"d2ae76a5359d4a4ba025a161ac9235ea","access_token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkMmFlNzZhNTM1OWQ0YTRiYTAyNWExNjFhYzkyMzVlYSIsImN1c3RvbUpzb24iOiJ7XCJjbGllbnRJZFwiOlwiMjVkelgzdmJZcWt0Vnh5WFwiLFwiZG9tYWluSWRcIjpcImJqMjlcIixcInNjb3BlXCI6W1wiRFJJVkUuQUxMXCIsXCJTSEFSRS5BTExcIixcIkZJTEUuQUxMXCIsXCJVU0VSLkFMTFwiLFwiU1RPUkFHRS5BTExcIixcIlNUT1JBR0VGSUxFLkxJU1RcIixcIkJBVENIXCIsXCJPQVVUSC5BTExcIixcIklNQUdFLkFMTFwiLFwiSU5WSVRFLkFMTFwiLFwiQUNDT1VOVC5BTExcIl0sXCJyb2xlXCI6XCJ1c2VyXCIsXCJyZWZcIjpcImh0dHBzOi8vd3d3LmFsaXl1bmRyaXZlLmNvbS9cIn0iLCJleHAiOjE2MzE2MzM2MTgsImlhdCI6MTYzMTYyNjM1OH0.UHW0SONvkhuPkb4b-Im8nrunKqGhDzF8sbUdPI1mscpFb-u5BgOv8OPfxq9_fuNSy7W7x9CFdFx_zbC_eUass_ve_D7hpTNbOT1-g1_hJl484rC8GO9x1NI6yFVGn_3e1fQFA7UBjPlfY6uCbQz5yLhWzlOdTeSnAOjOd29tJLw","refresh_token":"b248260cf4084253a7041589f2e8f3aa","expire_time":"2021-09-14T15:33:38Z","default_drive_id":"2011294"}}
